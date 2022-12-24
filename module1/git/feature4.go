@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
-func feature() {
-	fmt.Println("feature 4")
+func feature4(text string) {
+	fmt.Println(text)
+}
+
+func main() {
+	feature4("feature4")
+
 }
