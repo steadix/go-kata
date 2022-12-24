@@ -2,7 +2,7 @@ image: golang:latest
 
 variables:
   # Please edit to your GitLab project
-  REPO_NAME: gitlab.com/ptflp/go-kata
+  REPO_NAME: gitlab.com/steadix/go-kata
   GIT_DEPTH: 10
 
 stages:
