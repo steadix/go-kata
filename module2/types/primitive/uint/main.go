@@ -9,6 +9,7 @@ func main() {
 	n := 112358132134
 	fmt.Println("size is:", unsafe.Sizeof(n), "bytes")
 	typeUint()
+
 }
 
 func typeUint() {
