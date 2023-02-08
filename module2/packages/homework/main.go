@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"greet"
+	"github.com/steadix/greet"
 )
 
 func main() {
