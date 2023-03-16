@@ -7,7 +7,7 @@ type calc struct {
 	result float64
 }
 
-func NewCalc() *calc { // конструктор калькулятора
+func NewCalc() *calc {
 	return &calc{}
 }
 
@@ -32,7 +32,7 @@ func (c *calc) Result() float64 {
 	return c.result
 }
 
-func multiply(a, b float64) float64 { // реализуйте по примеру divide, sum, average
+func multiply(a, b float64) float64 {
 	return a * b
 }
 
